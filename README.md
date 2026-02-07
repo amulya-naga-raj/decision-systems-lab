@@ -19,16 +19,22 @@ Python • Pandas • NumPy • Streamlit • Matplotlib • CSV Analytics • D
 ---
 
 <p align="left">
+  <!-- Demo: scrolls to Demo section -->
   <a href="#demo">
     <img src="https://img.shields.io/badge/demo-available-blue" />
   </a>
+
+  <!-- Live: opens deployed Streamlit app -->
   <a href="https://decision-systems-lab.streamlit.app" target="_blank">
     <img src="https://img.shields.io/badge/live-online-brightgreen" />
   </a>
+
+  <!-- License: opens LICENSE file -->
   <a href="LICENSE">
-    <img src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+    <img src="https://img.shields.io/badge/license-MIT-yellow" />
   </a>
 </p>
+
 
 
 ## Project Motivation
