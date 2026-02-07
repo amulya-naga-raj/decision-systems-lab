@@ -18,6 +18,19 @@ Python • Pandas • NumPy • Streamlit • Matplotlib • CSV Analytics • D
 
 ---
 
+<p align="left">
+  <a href="#demo">
+    <img src="https://img.shields.io/badge/demo-available-blue" />
+  </a>
+  <a href="https://decision-systems-lab.streamlit.app" target="_blank">
+    <img src="https://img.shields.io/badge/live-online-brightgreen" />
+  </a>
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
+</p>
+
+
 ## Project Motivation
 
 In many real systems (credit approval, fraud screening, admissions, eligibility checks), machine-learning models output **scores**, not decisions.
