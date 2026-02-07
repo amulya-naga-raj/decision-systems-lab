@@ -23,7 +23,7 @@ Python • Pandas • NumPy • Streamlit • Matplotlib • CSV Analytics • D
 
 ---
 Click the **Demo** badge to access the live interactive dashboard.
-
+---
 ## Project Motivation
 
 In many real systems (credit approval, fraud screening, admissions, eligibility checks), machine-learning models output **scores**, not decisions.
