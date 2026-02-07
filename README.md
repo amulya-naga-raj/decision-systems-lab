@@ -8,7 +8,7 @@ to design and evaluate decision-making systems.
 
 ---
 
-## Author
+## 👤Author
 
 **Amulya Naga Raj**  
 M.S. Computer Science, Syracuse University  
@@ -19,23 +19,23 @@ Python • Pandas • NumPy • Streamlit • Matplotlib • CSV Analytics • D
 ---
 
 <p align="left">
-  <!-- Demo: scrolls to Demo section -->
-  <a href="#demo">
-    <img src="https://img.shields.io/badge/demo-available-blue" />
+  <!-- Demo: scrolls to How to Run section -->
+  <a href="#-how-to-run-locally">
+    <img src="https://img.shields.io/badge/📺_demo-available-blue?style=for-the-badge" />
   </a>
 
-  <!-- Live: opens deployed Streamlit app -->
-  <a href="https://decision-systems-lab.streamlit.app" target="_blank">
-    <img src="https://img.shields.io/badge/live-online-brightgreen" />
+  <!-- Live: opens local dashboard -->
+  <a href="http://localhost:8501" target="_blank">
+    <img src="https://img.shields.io/badge/🚀_live-dashboard-brightgreen?style=for-the-badge" />
   </a>
 
   <!-- License: opens LICENSE file -->
   <a href="LICENSE">
-    <img src="https://img.shields.io/badge/license-MIT-yellow" />
+    <img src="https://img.shields.io/badge/📄_license-MIT-yellow?style=for-the-badge" />
   </a>
 </p>
 
-
+---
 
 ## Project Motivation
 
