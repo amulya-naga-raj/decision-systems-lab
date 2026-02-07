@@ -202,7 +202,7 @@ Used for value-based filtering.
 ## Example Raw Dataset (Correct Format)
 
 ```csv
-risk_score	label	segment	     date	      amount
+risk_score	label	segment	     date	    amount
 0.12	      0	    Consumer	 1/15/2025 	45.23
 0.89	      1	    Enterprise	 1/16/2025	892.5
 0.34	      0	    SMB	         1/17/2025	156.78
