@@ -16,12 +16,12 @@ M.S. Computer Science, Syracuse University
 **Tech Stack:**  
 Python • Pandas • NumPy • Streamlit • Matplotlib • CSV Analytics • Data Analysis
 
----
 
 [![Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://decision-systems-lab.streamlit.app)
 [![Live](https://img.shields.io/badge/status-online-success)](https://decision-systems-lab.streamlit.app)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
+Click the Demo badge to access the live interactive dashboard.
 ---
 
 ## Project Motivation
