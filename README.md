@@ -18,24 +18,6 @@ Python • Pandas • NumPy • Streamlit • Matplotlib • CSV Analytics • D
 
 ---
 
-<p align="left">
-  <!-- Demo: scrolls to How to Run section -->
-  <a href="#-how-to-run-locally">
-    <img src="https://img.shields.io/badge/📺_demo-how_to_run-blue?style=for-the-badge" />
-  </a>
-
-  <!-- Run Instructions: links to setup -->
-  <a href="#-how-to-run-locally">
-    <img src="https://img.shields.io/badge/🚀_run_locally-localhost:8501-brightgreen?style=for-the-badge" />
-  </a>
-
-  <!-- License: opens LICENSE file -->
-  <a href="LICENSE">
-    <img src="https://img.shields.io/badge/📄_license-MIT-yellow?style=for-the-badge" />
-  </a>
-</p>
-
-> **💡 To open the live dashboard:** Run `streamlit run dashboard.py` in your terminal, then visit http://localhost:8501
 
 ---
 
