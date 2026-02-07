@@ -1,4 +1,4 @@
-# Decision Systems Lab Dashboard
+# 📊Decision Systems Lab Dashboard
 
 A decision-policy dashboard that converts **risk scores** into **defensible operating policies**.  
 
