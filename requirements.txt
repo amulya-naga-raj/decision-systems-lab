@@ -1,7 +1,4 @@
-python
-pandas
-numpy
-scikit-learn
-streamlit
-plotly
-matplotlib
+streamlit>=1.31
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.8
