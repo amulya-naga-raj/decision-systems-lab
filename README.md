@@ -24,7 +24,7 @@ Python • Pandas • NumPy • Streamlit • Matplotlib • CSV Analytics • D
 
 **Click the **Demo** badge to access the live interactive dashboard.**
 
-## Project Motivation
+## 🎯Project Motivation
 
 In many real systems (credit approval, fraud screening, admissions, eligibility checks), machine-learning models output **scores**, not decisions.
 
@@ -40,7 +40,7 @@ Instead of focusing on model training, this dashboard focuses on:
 
 ---
 
-## What the Dashboard Does
+## ⚙️What the Dashboard Does
 
 The dashboard:
 1. Accepts a CSV dataset containing **risk scores** and **ground-truth labels**
@@ -54,7 +54,7 @@ The dashboard:
 
 ---
 
-## Decision Logic
+## 🧮Decision Logic
 
 ### Decision Rule
 
@@ -78,18 +78,18 @@ Each outcome has a **business impact value** that can be customized.
 
 ---
 
-## CSV Upload Formats 
+## 📂CSV Upload Formats 
 
 The dashboard supports **two upload patterns**.
 
 ---
 
-**OPTION A: Test with RAW DATASET CSV**
+**📥OPTION A: Test with RAW DATASET CSV**
 
 Each row represents **one decision instance**.
 
 ---
-**OPTION B**
+**📥OPTION B**
 
 ## Required Columns
 
@@ -149,11 +149,11 @@ Indicates the **true outcome**.
 
 ---
 
-## Optional Columns
+## 🔧Optional Columns
 
 These are **not required**, but enable filtering and richer analysis.
 
-### Segment / Group Column
+### 📊Segment / Group Column
 Used for segment-wise filtering.
 
 **Recommended:**
@@ -168,7 +168,7 @@ Used for segment-wise filtering.
 
 ---
 
-### Date Column
+### 📅Date Column
 Used for time-based filtering.
 
 **Recommended:**
@@ -189,7 +189,7 @@ Used for time-based filtering.
 
 ---
 
-### Amount / Value Column
+### 💰Amount / Value Column
 Used for value-based filtering.
 
 **Recommended:**
@@ -205,7 +205,7 @@ Used for value-based filtering.
 
 ---
 
-## Example Raw Dataset (Correct Format)
+## 📝Example Raw Dataset (Correct Format)
 
 ```csv
 risk_score	label	segment	     date	    amount
@@ -220,37 +220,37 @@ risk_score	label	segment	     date	    amount
 0.15	      0	    SMB	         1/23/2025	89.12
 ```
 
-## Large File Support 
+## 🚄Large File Support 
 
 The dashboard includes automatic large-file handling.
-1. Smart Mode Behavior:
+1. **🧠Smart Mode Behavior:**
 - Detects large CSVs
 - Switches to streaming computation
 - Reads data in chunks
 - Prevents memory crashes
 
-2. Manual Controls:
+2. **⚙️Manual Controls:**
 - Force streaming mode
 - Disable smart mode if needed
 
-3. What Works in Streaming Mode
+3. **✅What Works in Streaming Mode**
 - Full threshold sweep
 - Policy recommendation
 - Sensitivity analysis
 - Exports
 
-4. What Uses Preview Data Only
+4. **📊What Uses Preview Data Only**
 - Filters
 - Score histogram
 
-5. Business Scenarios
+5. **💼Business Scenarios**
 - Each scenario defines impact values per outcome.
 
 **Examples:**
-- Baseline
-- Growth
-- Fraud-heavy
-- Conservative
+- 📈 Baseline
+- 🚀 Growth
+- 🔴 Fraud-heavy
+- 🛡️ Conservative
 
 **modify if needed:**
 - approve_good
@@ -261,21 +261,50 @@ The dashboard includes automatic large-file handling.
 This allows stakeholders to stress-test policies under different assumptions.
 
 
+## 💡 What This Project Demonstrates
+
 **This project demonstrates:**
-- Decision systems thinking
-- Business-aware analytics
-- Explainability over black-box ML
-- Production-safe data handling
-- Stakeholder-ready outputs
+- 🎯 Decision systems thinking
+- 📊 Business-aware analytics
+- 🔍 Explainability over black-box ML
+- 🚀 Production-safe data handling
+- 📋 Stakeholder-ready outputs
 
-It intentionally focuses on policy evaluation, not model training.
+It intentionally focuses on **policy evaluation**, not model training.
 
-**How to Run Locally:**
-- pip install -r requirements.txt
-- streamlit run dashboard.py
+**🖥️How to Run Locally:**
+### Installation:
+```bash
+pip install -r requirements.txt
+```
 
-**Open:**
+### Run Dashboard:
+```bash
+streamlit run dashboard.py
+```
+
+### Open in Browser:
+```
 http://localhost:8501
+```
 
-**OUTPUT:**
-Uploading a CSV with risk_score and label produces a complete decision-policy analysis: recommended threshold, business impact curves, sensitivity analysis, and auditable exports.
+## 📤 Output
+
+Uploading a CSV with `risk_score` and `label` produces a complete decision-policy analysis:
+- ✅ Recommended threshold
+- 📈 Business impact curves
+- 📊 Sensitivity analysis
+- 📥 Auditable exports
+
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome!
+
+## 📄 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 📧 Contact
+**Amulya Naga Raj**  
+M.S. Computer Science, Syracuse University  
+[LinkedIn](https://www.linkedin.com/in/amulya-naga-raj)
+• [GitHub](https://github.com/amulya-naga-raj)
+
